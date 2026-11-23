@@ -1,0 +1,17 @@
+{
+  "name": "sicksaint",
+  "version": "1.0.0",
+  "description": "SICKSAINT — The World, Without The Noise. International Digital Magazine & Publishing Platform.",
+  "private": true,
+  "workspaces": ["frontend"],
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "build:frontend": "npm run build --workspace=frontend",
+    "build": "npm run build --workspace=frontend",
+    "lint": "npm run lint --workspace=frontend"
+  },
+  "overrides": { "postcss": "^8.5.33" },
+  "author": "SICKSAINT Editorial & Engineering Team",
+  "license": "UNLICENSED"
+}
